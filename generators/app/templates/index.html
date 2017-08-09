@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="mdc-typography">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, shrink-to-fit=no"/>
+    <title><%= title %></title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="apple-mobile-web-app-title" content="Agshift">
+    <meta name="application-name" content="Agshift">
+    <meta name="theme-color" content="#2e48cc">
+    <style>
+        :root {
+            --mdc-theme-primary: #0e4ead;
+        }
+
+        .mdc-ripple-surface.mdc-ripple-upgraded.mdc-button--primary::before,
+        .mdc-ripple-surface.mdc-ripple-upgraded.mdc-button--primary::after {
+            background-color: rgba(255, 255, 255, .2);
+        }
+    </style>
+    <!-- RequireJS Script -->
+    <script data-main="./js/main-built.js" src="./vendor/requirejs/require.js"></script>
+    <script type="application/javascript">
+        var AGSHIFT_CURRENT_SESSION = {
+            user: null,
+        };
+    </script>
+</head>
+<body>
+<header></header>
+<main class="mdc-toolbar-fixed-adjust"></main>
+<nav></nav>
+</body>
+</html>

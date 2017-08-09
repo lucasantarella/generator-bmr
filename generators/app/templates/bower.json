@@ -1,0 +1,14 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "authors": [],
+  "description": "",
+  "dependencies": {
+    "jquery": "latest",
+    "morrisjs": "~0.5.1",
+    "requirejs": "^2.3.3",
+    "backbone": "latest",
+    "underscore": "latest",
+    "require-css": "^0.1.10"
+  }
+}
